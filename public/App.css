@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+}
+
+li {
+    list-style-type: none;
+}
+
+.black-nav {
+    background-color: black;
+    width: 100%;
+    display: flex;
+    color: white;
+    padding: 20px;
+}
+
+.black-nav h4 {
+    color: rgb(253, 205, 229);
+    font-size: 30px;
+}
+
+.list {
+    width: 500px;
+    height: 400px;
+    background-color: rgb(253, 205, 229);
+    margin: 0 auto;
+    border-radius: 15px;
+    margin-top: 50px;
+    text-align: start;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.list p {
+    margin-top: 10px;
+}
